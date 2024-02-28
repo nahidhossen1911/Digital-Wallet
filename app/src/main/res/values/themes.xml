@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DigitalWallet" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/white</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+
+    </style>
+
+    <style name="Theme.DigitalWallet" parent="Base.Theme.DigitalWallet" />
+</resources>

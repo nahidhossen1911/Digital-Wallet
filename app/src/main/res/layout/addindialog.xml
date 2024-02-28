@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        android:layout_margin="5dp"
+        app:cardElevation="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Income"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#3C3C3C"
+                android:layout_marginTop="13dp"
+                />
+
+
+            <EditText
+                android:id="@+id/setincome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/itemback"
+                android:padding="13dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:maxLines="2"
+                android:inputType="text"
+                android:hint="Income"
+                android:textColor="#494949"
+                />
+
+
+            <EditText
+                android:id="@+id/setinmony"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/itemback"
+                android:padding="13dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:maxLines="1"
+                android:inputType="number"
+                android:hint="5000"
+                android:textColor="#494949"
+                android:maxLength="9"
+                />
+
+            <TextView
+                android:id="@+id/insubmit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Submit"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/incomeback"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <TextView
+                android:id="@+id/incancel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Cancel"
+                android:textSize="18dp"
+                android:textColor="#ED6135"
+                android:gravity="center"
+                android:background="@drawable/expenseback"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
